@@ -96,7 +96,7 @@ public class SecurityProxy {
                 .normalizeContextPath(properties.getProperty(PropertyKeyConst.CONTEXT_PATH, webContext));
         this.nacosRestTemplate = nacosRestTemplate;
     }
-    
+
     /**
      * Login to servers.
      *
